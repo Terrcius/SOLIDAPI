@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "prettier": "^3.6.2"
+  },
+  "scripts": {
+    "start": "tsnd --transpile-only --respawn --ignore-watch node_modules src/server.ts",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  }
+}
