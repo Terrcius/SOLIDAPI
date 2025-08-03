@@ -1,4 +1,3 @@
-# SOLIDAPI
 # 🚀 SOLIDAPI - API TypeScript com SOLID, Testes e Arquitetura Limpa
 
 **Uma API Node.js/TypeScript focada em Clean Architecture, SOLID, Testes Unitários e organização por features.**
@@ -16,25 +15,6 @@ Projeto desenvolvido como **estudo avançado de arquitetura de software**, aplic
 - **Express** (Framework HTTP - opcional)
 
 ## 📦 Estrutura do Projeto (Package by Feature)
-
-SOLIDAPI/
-├── src/
-│ ├── features/
-│ │ ├── users/
-│ │ │ ├── useCases/ # Casos de uso (CreateUserUseCase)
-│ │ │ ├── repositories/ # Implementações (UsersRepository)
-│ │ │ ├── contracts/ # Interfaces (IUsersRepository)
-│ │ │ ├── models/ # Entidades (User)
-│ │ │ └── tests/ # Testes da feature
-│ │ │
-│ │ └── products/ # (Exemplo de outra feature)
-│ │
-│ ├── shared/ # Utilitários compartilhados
-│ └── app.ts # Configuração da aplicação
-│
-├── tests/ # Testes integrados
-└── package.json
-
 
 ## 🔍 Princípios SOLID Aplicados (TypeScript)
 ### 1️⃣ **Single Responsibility Principle (S)**
